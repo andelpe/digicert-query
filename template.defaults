@@ -1,0 +1,20 @@
+{
+    "validity": 1,
+    "certificate_type": "grid_host_ssl",
+    "organization_units":  ["<replace>"],
+    "server_platform": -1,
+    "organization_id": <replace>,
+    "signature_hash": "sha256",
+    "sans": [],
+    "subject": "/C=<replace>/CN={hname}",
+    "auto_renew": 1,
+
+    "__extra_doc_fields_ignored": {
+        "ignored fields":   "whatever within a key starting with __ is ignored",
+        "you need to": "at a minimum, fill the <replace> parts",
+        "you may":     "change any other default setting",
+        "notice macro":  "you may use {hname}, and it will be automatically field by script"
+    }
+
+}
+
